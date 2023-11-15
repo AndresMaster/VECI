@@ -1,0 +1,63 @@
+.Description{
+    color:rgb(18, 112, 8); 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.IA {
+    color:brown;
+}
+
+#Title {
+    color:rgb(3, 24, 88);
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(203, 64, 0); /*para ponerle color al fondo del titulo*/
+    padding: 2px; 
+
+
+}
+
+#Logo1 {
+    display: block; /* Hace que la imagen sea un bloque, para que los márgenes automáticos funcionen */
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+.Button_IA {
+
+    background-color: #4CAF50; /* Fondo verde */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.Button_Ingresarproductos {
+
+    background-color: rgb(255, 85, 0); /* Fondo verde */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 0 auto; /* Centra el botón horizontalmente */
+}
+
+.input_InText {
+    padding: 10px; /* Espaciado interno */
+    width: 100%; /* Ocupa el ancho completo del contenedor */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    border: 2px solid #4CAF50; /* Borde verde */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Margen inferior */
+}
