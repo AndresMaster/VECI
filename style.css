@@ -4,6 +4,7 @@
 }
 .IA {
     color:brown;
+    font-size: 30px;
 }
 
 #Title {
@@ -21,6 +22,7 @@
     display: block; /* Hace que la imagen sea un bloque, para que los márgenes automáticos funcionen */
     margin-left: auto;
     margin-right: auto;
+
  
 }
 
@@ -61,3 +63,44 @@
     border-radius: 5px; /* Bordes redondeados */
     margin-bottom: 10px; /* Margen inferior */
 }
+
+/* Sección para escoger que queremos hacer desde la pagina HOME */
+.Options {
+    color:#111111;
+    font-size: 80px;
+    text-align: center;
+    background:linear-gradient(#3da7ed, #3c8fe7f7);
+    border-radius: 15px;
+    
+
+}
+nav ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0; /* Elimina el relleno predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+    text-align: center;
+}
+
+nav li {
+    display: inline-block; /* Hace que los elementos de la lista se muestren en línea uno al lado del otro */
+    margin-right: 10px; /* Espacio entre los elementos */
+
+}
+
+nav a {
+    text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
+    padding: 20px 13px; /* Añade un poco de relleno para que sea más fácil hacer clic */
+    border: 2px solid rgb(57, 23, 192); /* Añade un borde para resaltar los bloques */
+    border-radius: 5px; /* Añade esquinas redondeadas */
+    color: #333; /* Color del texto */
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    background-color: #4CAF50;
+    
+}
+
+nav a:hover {
+    background-color: #da1212; /* Cambia el color de fondo al pasar el ratón sobre el enlace */
+}
+
